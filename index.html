@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Промінь Надії — Благодійний фонд</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <span class="logo-icon">☀</span>
+                <span class="logo-text">Промінь Надії</span>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#about" class="nav-link">Про нас</a>
+                <a href="#programs" class="nav-link">Програми</a>
+                <a href="#impact" class="nav-link">Результати</a>
+                <a href="#stories" class="nav-link">Історії</a>
+                <a href="#contact" class="nav-link">Контакти</a>
+            </nav>
+            <a href="#donate" class="btn btn-primary btn-header">Допомогти</a>
+            <button class="burger" id="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-particles" id="particles"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge">🤝 Разом ми сильніші</div>
+            <h1 class="hero-title">
+                Даруємо <span class="text-gradient">надію</span><br>
+                та <span class="text-gradient">щасливе дитинство</span>
+            </h1>
+            <p class="hero-subtitle">
+                Ми допомагаємо дітям-сиротам знайти родину, а людям з деокупованих територій —
+                повернутися до мирного життя. Кожна ваша дія змінює чиєсь життя назавжди.
+            </p>
+            <div class="hero-actions">
+                <a href="#donate" class="btn btn-primary btn-lg">
+                    <span>Зробити внесок</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 3.5C10 3.5 8.5 2 6.5 2C4 2 2 4 2 6.5C2 11 10 17 10 17C10 17 18 11 18 6.5C18 4 16 2 13.5 2C11.5 2 10 3.5 10 3.5Z" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+                </a>
+                <a href="#about" class="btn btn-outline btn-lg">Дізнатися більше</a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="1240">0</span>
+                    <span class="hero-stat-label">дітей отримали допомогу</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="85">0</span>
+                    <span class="hero-stat-label">родин возз'єднано</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number" data-count="3600">0</span>
+                    <span class="hero-stat-label">людей підтримано</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Прокрутіть вниз</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img about-img-1">
+                        <div class="img-placeholder" data-emoji="👧🏼">
+                            <span>Щаслива дитина</span>
+                        </div>
+                    </div>
+                    <div class="about-img about-img-2">
+                        <div class="img-placeholder" data-emoji="🏠">
+                            <span>Новий дім</span>
+                        </div>
+                    </div>
+                    <div class="about-floating-card">
+                        <div class="floating-icon">💛</div>
+                        <div>
+                            <strong>8 років</strong>
+                            <span>допомоги людям</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="section-badge">Про фонд</div>
+                    <h2 class="section-title">Ми віримо, що кожна<br>дитина заслуговує на <span class="text-gradient">любов</span></h2>
+                    <p class="about-text">
+                        «Промінь Надії» — це благодійний фонд, заснований у 2018 році. Ми працюємо для того,
+                        щоб кожна дитина-сирота мала шанс на щасливе життя, а люди, які постраждали від
+                        окупації, отримали підтримку та можливість почати нове життя.
+                    </p>
+                    <p class="about-text">
+                        Наша команда волонтерів та спеціалістів працює по всій Україні, надаючи гуманітарну,
+                        психологічну та юридичну допомогу тим, хто цього найбільше потребує.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">🛡️</div>
+                            <div>
+                                <strong>Прозорість</strong>
+                                <span>Повна звітність кожної гривні</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">💝</div>
+                            <div>
+                                <strong>Турбота</strong>
+                                <span>Індивідуальний підхід до кожного</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">🤝</div>
+                            <div>
+                                <strong>Партнерство</strong>
+                                <span>Співпраця з міжнародними організаціями</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs -->
+    <section class="programs section" id="programs">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Наші програми</div>
+                <h2 class="section-title">Напрямки <span class="text-gradient">допомоги</span></h2>
+                <p class="section-subtitle">Ми працюємо у кількох ключових напрямках, щоб охопити якнайбільше людей, які потребують підтримки</p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card" data-color="sun">
+                    <div class="program-icon">🏡</div>
+                    <h3 class="program-title">Дім для дитини</h3>
+                    <p class="program-text">Допомагаємо дітям-сиротам знайти люблячі родини. Супроводжуємо процес усиновлення та забезпечуємо психологічну підтримку.</p>
+                    <div class="program-stat">
+                        <span class="program-stat-number">85</span>
+                        <span>родин створено у 2025 році</span>
+                    </div>
+                </div>
+                <div class="program-card" data-color="sky">
+                    <div class="program-icon">🎓</div>
+                    <h3 class="program-title">Освіта та розвиток</h3>
+                    <p class="program-text">Забезпечуємо дітей шкільним приладдям, оплачуємо навчання та організовуємо розвивальні гуртки та табори.</p>
+                    <div class="program-stat">
+                        <span class="program-stat-number">420</span>
+                        <span>дітей навчаються за нашою підтримкою</span>
+                    </div>
+                </div>
+                <div class="program-card" data-color="rose">
+                    <div class="program-icon">🫂</div>
+                    <h3 class="program-title">Психологічна допомога</h3>
+                    <p class="program-text">Професійні психологи працюють з дітьми та дорослими, які пережили травматичний досвід окупації та втрати.</p>
+                    <div class="program-stat">
+                        <span class="program-stat-number">1 200+</span>
+                        <span>сесій проведено цього року</span>
+                    </div>
+                </div>
+                <div class="program-card" data-color="mint">
+                    <div class="program-icon">📦</div>
+                    <h3 class="program-title">Гуманітарна допомога</h3>
+                    <p class="program-text">Доставляємо продукти, одяг, медикаменти та предмети першої необхідності в деокуповані громади.</p>
+                    <div class="program-stat">
+                        <span class="program-stat-number">50 тонн</span>
+                        <span>гуманітарних вантажів доставлено</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact -->
+    <section class="impact section" id="impact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Наш вплив</div>
+                <h2 class="section-title">Цифри, що <span class="text-gradient">надихають</span></h2>
+            </div>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-number" data-count="1240">0</div>
+                    <div class="impact-label">Дітей отримали допомогу</div>
+                    <div class="impact-bar"><div class="impact-bar-fill" style="--fill: 85%"></div></div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-number" data-count="36">0</div>
+                    <div class="impact-label">Громад охоплено</div>
+                    <div class="impact-bar"><div class="impact-bar-fill" style="--fill: 60%"></div></div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-number" data-count="150">0</div>
+                    <div class="impact-label">Волонтерів у команді</div>
+                    <div class="impact-bar"><div class="impact-bar-fill" style="--fill: 75%"></div></div>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-number" data-count="3600">0</div>
+                    <div class="impact-label">Людей підтримано загалом</div>
+                    <div class="impact-bar"><div class="impact-bar-fill" style="--fill: 92%"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories -->
+    <section class="stories section" id="stories">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Історії змін</div>
+                <h2 class="section-title">Вони знайшли <span class="text-gradient">щастя</span></h2>
+                <p class="section-subtitle">Реальні історії людей, чиє життя змінилося завдяки вашій підтримці</p>
+            </div>
+            <div class="stories-grid">
+                <div class="story-card">
+                    <div class="story-image">
+                        <div class="img-placeholder img-placeholder-warm" data-emoji="👦🏼">
+                            <span>Максим, 7 років</span>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <div class="story-tag">Усиновлення</div>
+                        <h3 class="story-title">Максим знайшов родину</h3>
+                        <p class="story-text">Максим провів 4 роки у дитячому будинку. Завдяки нашій програмі «Дім для дитини», він знайшов люблячих батьків. Зараз він ходить у школу і мріє стати лікарем.</p>
+                        <div class="story-quote">
+                            <span>"Тепер у мене є мама і тато. Я найщасливіший!"</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <div class="story-image">
+                        <div class="img-placeholder img-placeholder-cool" data-emoji="👩🏻">
+                            <span>Родина Олени</span>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <div class="story-tag">Деокупація</div>
+                        <h3 class="story-title">Нове життя родини Олени</h3>
+                        <p class="story-text">Олена з трьома дітьми евакуювалась із деокупованої території. Фонд допоміг із житлом, документами та влаштуванням дітей до школи. Зараз Олена працює і будує нове життя.</p>
+                        <div class="story-quote">
+                            <span>"Ви повернули нам віру в людей і в майбутнє."</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="story-card">
+                    <div class="story-image">
+                        <div class="img-placeholder img-placeholder-green" data-emoji="👧🏽">
+                            <span>Софія, 12 років</span>
+                        </div>
+                    </div>
+                    <div class="story-content">
+                        <div class="story-tag">Освіта</div>
+                        <h3 class="story-title">Софія здійснює мрію</h3>
+                        <p class="story-text">Софія завжди мріяла про музику, але не мала можливості навчатися. Завдяки стипендіальній програмі фонду, вона тепер навчається у музичній школі і грає на скрипці.</p>
+                        <div class="story-quote">
+                            <span>"Музика — це моє щастя. Дякую, що повірили в мене."</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA / Donate -->
+    <section class="donate section" id="donate">
+        <div class="container">
+            <div class="donate-card">
+                <div class="donate-decoration">
+                    <div class="donate-circle donate-circle-1"></div>
+                    <div class="donate-circle donate-circle-2"></div>
+                    <div class="donate-circle donate-circle-3"></div>
+                </div>
+                <div class="donate-content">
+                    <h2 class="donate-title">Ваша допомога —<br>чиєсь <span class="text-gradient-light">щасливе завтра</span></h2>
+                    <p class="donate-text">Навіть невеликий внесок може змінити життя дитини. Оберіть зручний для вас спосіб допомоги.</p>
+                    <div class="donate-amounts">
+                        <button class="amount-btn" data-amount="100">100 ₴</button>
+                        <button class="amount-btn active" data-amount="500">500 ₴</button>
+                        <button class="amount-btn" data-amount="1000">1 000 ₴</button>
+                        <button class="amount-btn" data-amount="5000">5 000 ₴</button>
+                    </div>
+                    <div class="donate-input-group">
+                        <input type="number" class="donate-input" id="donateAmount" placeholder="Або введіть свою суму" min="1">
+                        <span class="donate-currency">₴</span>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-donate">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 3.5C10 3.5 8.5 2 6.5 2C4 2 2 4 2 6.5C2 11 10 17 10 17C10 17 18 11 18 6.5C18 4 16 2 13.5 2C11.5 2 10 3.5 10 3.5Z" stroke="currentColor" stroke-width="1.5" fill="none"/></svg>
+                        <span>Допомогти зараз</span>
+                    </button>
+                    <p class="donate-note">Безпечна оплата • Звіт про використання коштів</p>
+                </div>
+                <div class="donate-impact">
+                    <h4>Що може ваш внесок:</h4>
+                    <div class="donate-impact-item">
+                        <span class="impact-emoji">🍎</span>
+                        <div>
+                            <strong>100 ₴</strong>
+                            <span>Харчування дитини на тиждень</span>
+                        </div>
+                    </div>
+                    <div class="donate-impact-item">
+                        <span class="impact-emoji">📚</span>
+                        <div>
+                            <strong>500 ₴</strong>
+                            <span>Шкільне приладдя на семестр</span>
+                        </div>
+                    </div>
+                    <div class="donate-impact-item">
+                        <span class="impact-emoji">🧸</span>
+                        <div>
+                            <strong>1 000 ₴</strong>
+                            <span>Місяць занять з психологом</span>
+                        </div>
+                    </div>
+                    <div class="donate-impact-item">
+                        <span class="impact-emoji">🏠</span>
+                        <div>
+                            <strong>5 000 ₴</strong>
+                            <span>Допомога з житлом на місяць</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer -->
+    <section class="volunteer section">
+        <div class="container">
+            <div class="volunteer-grid">
+                <div class="volunteer-content">
+                    <div class="section-badge">Стань волонтером</div>
+                    <h2 class="section-title">Приєднуйся до <span class="text-gradient">команди добра</span></h2>
+                    <p>Нам завжди потрібні небайдужі люди. Ви можете допомогти своїм часом, знаннями або навичками.</p>
+                    <div class="volunteer-roles">
+                        <span class="role-tag">Психологи</span>
+                        <span class="role-tag">Юристи</span>
+                        <span class="role-tag">Водії</span>
+                        <span class="role-tag">Вчителі</span>
+                        <span class="role-tag">Медики</span>
+                        <span class="role-tag">Перекладачі</span>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">Стати волонтером</a>
+                </div>
+                <div class="volunteer-visual">
+                    <div class="volunteer-cards">
+                        <div class="v-card v-card-1">
+                            <span>🙋‍♀️</span>
+                            <p>Марина, психолог</p>
+                        </div>
+                        <div class="v-card v-card-2">
+                            <span>🙋‍♂️</span>
+                            <p>Олексій, водій</p>
+                        </div>
+                        <div class="v-card v-card-3">
+                            <span>🙋‍♀️</span>
+                            <p>Ірина, вчитель</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">Контакти</div>
+                <h2 class="section-title">Зв'яжіться <span class="text-gradient">з нами</span></h2>
+            </div>
+            <div class="contact-grid">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Ваше ім'я" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-input" placeholder="Телефон">
+                    </div>
+                    <div class="form-group">
+                        <select class="form-input">
+                            <option value="" disabled selected>Тема звернення</option>
+                            <option value="donate">Хочу допомогти фінансово</option>
+                            <option value="volunteer">Хочу стати волонтером</option>
+                            <option value="help">Потребую допомоги</option>
+                            <option value="partner">Партнерство</option>
+                            <option value="other">Інше</option>
+                        </select>
+                    </div>
+                    <div class="form-group form-group-full">
+                        <textarea class="form-input form-textarea" placeholder="Ваше повідомлення" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">Надіслати</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Адреса</strong>
+                            <span>м. Київ, вул. Хрещатик, 22</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <strong>Телефон</strong>
+                            <span>+380 (44) 123-45-67</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div>
+                            <strong>Email</strong>
+                            <span>info@prominnadii.org.ua</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🕐</div>
+                        <div>
+                            <strong>Графік роботи</strong>
+                            <span>Пн-Пт: 9:00 — 18:00</span>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Telegram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 000 12a12 12 0 0012 12 12 12 0 0012-12A12 12 0 0012 0a12 12 0 00-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 01.171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">☀</span>
+                        <span class="logo-text">Промінь Надії</span>
+                    </a>
+                    <p>Благодійний фонд допомоги дітям-сиротам та людям з деокупованих територій.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Навігація</h4>
+                    <a href="#about">Про нас</a>
+                    <a href="#programs">Програми</a>
+                    <a href="#impact">Результати</a>
+                    <a href="#stories">Історії</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Допомога</h4>
+                    <a href="#donate">Зробити внесок</a>
+                    <a href="#contact">Стати волонтером</a>
+                    <a href="#">Звітність</a>
+                    <a href="#">Партнерам</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Документи</h4>
+                    <a href="#">Статут фонду</a>
+                    <a href="#">Фінансові звіти</a>
+                    <a href="#">Політика конфіденційності</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 БФ «Промінь Надії». Всі права захищені.</p>
+                <p>ЄДРПОУ: 12345678</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
